@@ -11,9 +11,12 @@ namespace dgossellGHTest1
     {
         public App()
         {
+            FormattedString frsString1 = new FormattedString();
+
             // The root page of your application
             var content = new ContentPage
             {
+                
                 Title = "dgossellGHTest1",
                 Content = new StackLayout
                 {
@@ -32,7 +35,7 @@ namespace dgossellGHTest1
 
                         new Label
                         {
-                            Text = "This text is just for a change."
+                            Text = "This text is my new feature."
                         }
                     }
                 }
