@@ -28,6 +28,11 @@ namespace dgossellGHTest1
                         {
                             HorizontalTextAlignment = TextAlignment.Start,
                             Text = "I hope it works."
+                        },
+
+                        new Label
+                        {
+                            Text = "This text is just for a change."
                         }
                     }
                 }
